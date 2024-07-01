@@ -1,7 +1,12 @@
-cmake
 streamlit
-face_recognition
-opencv-python
-numpy
 Pillow
-dlib
+opencv-python
+cmake
+numpy
+pyyaml
+streamlit==1.22.0
+
+#Fork of face_recognition using prebuild dlib library instead
+face_recognition @ git+https://github.com/thetoby9944/face_recognition
+
+
