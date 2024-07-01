@@ -1,27 +1,27 @@
-#Face Recognition Model using OpenCV and Python
+# Face Recognition Model using OpenCV and Python
 
 This project demonstrates a simple face recognition model using OpenCV and Python. The model encodes faces from images stored in a directory and detects known faces in real-time from a webcam feed.
-Features
 
-    Encodes faces from images in a specified directory.
-    Detects known faces in real-time using a webcam.
-    Displays the name of the detected person based on the folder name containing their images.
+## Features
 
-Requirements
+- Encodes faces from images in a specified directory.
+- Detects known faces in real-time using a webcam.
+- Displays the name of the detected person based on the folder name containing their images.
 
-    Python 3.6+
-    OpenCV
-    face_recognition
-    numpy
+## Requirements
 
-Installation
+- Python 3.6+
+- OpenCV
+- face_recognition
+- numpy
 
-    Clone the repository:
+## Installation
 
-    bash
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/face-recognition-opencv-python.git
+   cd face-recognition-opencv-python
 
-git clone https://github.com/your-username/face-recognition-opencv-python.git
-cd face-recognition-opencv-python
 
 Install the required packages:
 
@@ -33,7 +33,7 @@ Directory Structure
 
 The project directory should have the following structure:
 
-css
+
 
 face-recognition-opencv-python/
 │
@@ -50,6 +50,7 @@ face-recognition-opencv-python/
 ├── simple_facerec.py
 ├── main.py
 └── README.md
+
 
 Usage
 
@@ -79,7 +80,7 @@ Example
 
     Add images of "John Doe" and "Jane Smith" in their respective folders inside the images directory:
 
-    markdown
+
 
 images/
 ├── JohnDoe/
@@ -91,9 +92,9 @@ images/
     ├── jane2.jpg
     └── ...
 
+
 Run the script:
 
-bash
 
 python main.py
 
