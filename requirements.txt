@@ -1,6 +1,6 @@
 streamlit
 Pillow
-opencv-python
+opencv-python-headless
 cmake
 numpy
 pyyaml
