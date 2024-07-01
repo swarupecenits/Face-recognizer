@@ -5,7 +5,7 @@ cmake
 numpy
 pyyaml
 PyOpenGL
-streamlit==1.22.0
+streamlit==1.36.0
 
 #Fork of face_recognition using prebuild dlib library instead
 face_recognition @ git+https://github.com/thetoby9944/face_recognition
