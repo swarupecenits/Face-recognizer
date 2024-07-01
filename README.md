@@ -1,4 +1,4 @@
-Face Recognition Model using OpenCV and Python
+#Face Recognition Model using OpenCV and Python
 
 This project demonstrates a simple face recognition model using OpenCV and Python. The model encodes faces from images stored in a directory and detects known faces in real-time from a webcam feed.
 Features
