@@ -9,6 +9,6 @@ streamlit==1.36.0
 
 #Fork of face_recognition using prebuild dlib library instead
 face_recognition @ git+https://github.com/ageitgey/face_recognition.git
-dlib @ git+https://github.com/z-mahmud22/Dlib_Windows_Python3.x.git
+
 
 
