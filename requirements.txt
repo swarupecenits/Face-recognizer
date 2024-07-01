@@ -4,6 +4,7 @@ opencv-python
 cmake
 numpy
 pyyaml
+PyOpenGL
 streamlit==1.22.0
 
 #Fork of face_recognition using prebuild dlib library instead
